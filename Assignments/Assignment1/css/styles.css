@@ -1,0 +1,81 @@
+body{
+    background-color: blue;
+    color:grey;
+}
+header, main, nav, footer{
+    text-align: center;
+}
+
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    color:red;
+    transition: .9s;
+}
+
+#thisPage {
+    color: yellow !important;
+}
+
+#image, #information {
+    float: left;
+}
+
+#information {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+h3{
+    clear: left;
+    font-size: 1.7em;
+}
+
+footer {
+    clear: left;
+    font-size: .8em;
+    color: white;
+    
+}
+
+ol {
+    text-align: left;
+    padding-left: 200px;
+    
+}
+
+li {
+    font-size: 1em;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#Example{
+    outline-color:green;
+    outline-style:solid;
+    outline-width:5px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: green;
+}
+
+.sourceLinks{
+    color:yellow;
+}
+
+#introtext{
+    color:red;
+    font-size: 2.1em;
+}
