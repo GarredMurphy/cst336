@@ -1,7 +1,7 @@
 <?php
 function play() {
     for($i=1; $i<4; $i++) {
-        ${"random".$i} = rand(0,3);
+        ${"random".$i} = rand(0,4);
         display(${"random".$i}, $i);
     }
     points($random1, $random2, $random3);

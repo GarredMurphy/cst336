@@ -24,6 +24,7 @@ include 'inc/functions.php'
         </div
         
         <footer>
+        <br /><br /><br /><br /><br />
             <hr>
             <figure>
                 <img src="img/csumblogo.jpg" alt="CSUMB logo" />
