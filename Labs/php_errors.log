@@ -1,0 +1,4 @@
+[22-Sep-2018 14:51:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/Labs/Lab2/index.php on line 25
+[22-Sep-2018 14:51:09 UTC] PHP Stack trace:
+[22-Sep-2018 14:51:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab2/index.php:0
+[22-Sep-2018 14:51:09 UTC] PHP   2. display() /home/ubuntu/workspace/cst336/Labs/Lab2/index.php:12

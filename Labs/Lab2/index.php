@@ -1,24 +1,42 @@
+<?php
+
+include 'inc/functions.php'
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            @import url("css/styles.css");
+        </style>
         <title> 777 Slot Machine </title>
+
     </head>
     <body>
-        <?php
-            $random = rand(0,2);
-            
-            
-            if (random == 0)
-            {
-                $symbol = "lemon";
-            } else if (random == 1)
-            {
-                $symbol = "cherry";
-            } else if (random == 2)
-            {
-                $symbol = "grapes";
-            }
-            
-        ?>
+        <div id="main">
+            <?php
+                play();
+            ?>
+            <form>
+                <input type="submit" value="Spin!"/>
+            </form>
+        </div
+        
+        <footer>
+            <hr>
+            <figure>
+                <img src="img/csumblogo.jpg" alt="CSUMB logo" />
+                <img src="img/buddy_verified.png" alt="buddy verified" />
+            </figure>
+            CST336 Internet Programing. 2018&copy; Garred Murphy <br />
+            <strong>Disclaimer:</strong> The information in this website is fictitious.
+            <br /> It is used for accademic purposes only
+        </footer>
     </body>
 </html>
+
+
+
+
+
