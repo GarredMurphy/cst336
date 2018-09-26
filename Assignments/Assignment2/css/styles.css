@@ -1,0 +1,65 @@
+body{
+    background-color: blue;
+    color:grey;
+}
+header, main, nav, footer{
+    text-align: center;
+    font-size: 2em;
+}
+
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    color:red;
+    transition: .9s;
+}
+
+#image, #information {
+    float: left;
+}
+
+#information {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+h3{
+    clear: left;
+    font-size: 1.7em;
+}
+
+footer {
+    clear: left;
+    font-size: .8em;
+    color: white;
+    
+}
+
+
+
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    float: center;
+    color: red;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#red{
+    color: red;
+    background-color: red;
+}
