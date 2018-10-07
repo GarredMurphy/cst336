@@ -1,8 +1,6 @@
 <?php
     $backgroundImage = "img/sea.jpg";
-    
-    
-    
+
 
     
     
@@ -17,7 +15,15 @@
             $keyword = $category;
         }
         
+        
+        if ($keyword == "")
+        {
+            echo "<h2 >Forms are empty</h2>";
+        } else
+        {
         echo "<h2 >You searched for " . $keyword . "</h2>";
+        }
+        
         include 'api/pixabayAPI.php';
         $imageURLs = getImageURLs($keyword, $_GET['layout']);
         ## print_r($imageURLs);
