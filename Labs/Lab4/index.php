@@ -12,6 +12,10 @@
         $keyword = $_GET['keyword'];
         $category = $_GET['category'];
         
+        if (!isset($_GET['keyword']) || $keyword == "")
+        {
+            $keyword = $category;
+        }
         
         echo "<h2 >You searched for " . $keyword . "</h2>";
         include 'api/pixabayAPI.php';
