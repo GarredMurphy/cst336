@@ -1,0 +1,22 @@
+    body{
+        opacity:0.9;
+        text-align:center;
+        color:red;
+    }
+    
+    input {
+        font-size: 3em;
+        color: black;
+        
+    }
+    
+    #carousel-example-generic {
+        margin: 0 auto; 
+    }
+    
+    h2 {
+        margin: 0px auto;
+        color:black;
+        background-color: white;
+    }
+    

@@ -18,7 +18,10 @@ echo '<h1> Garred Murphy</h1>';
 <a href="Practice/rps.php">Practice 2</a>
 <br />
 <a href="Labs/Lab2/index.php">Lab 2</a>
+<br />
 <a href="Assignments/Assignment2/index.php">Assignemnt 2</a>
+<br />
+<a href="Labs/Lab4/index.php">Lab 4</a>
 <br />
 
 </body>
