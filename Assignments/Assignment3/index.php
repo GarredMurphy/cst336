@@ -169,7 +169,7 @@
             
             <form>
                 Enter a string here:<br>
-                <textarea name="text" style="width:200px; height:600px"><?php
+                <textarea name="text"><?php
                 if (isset($_GET["text"]))
                 {
                     echo $_GET["text"];

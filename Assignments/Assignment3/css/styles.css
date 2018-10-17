@@ -24,6 +24,8 @@ textarea{
     background-color: yellow;
     font-size: 3em;
     color: black;
+    width: 600px;
+    height: 600px;
 }
 
 #errors{
