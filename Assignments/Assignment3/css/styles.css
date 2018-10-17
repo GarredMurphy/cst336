@@ -1,0 +1,83 @@
+/*
+
+
+I ran out of time to completely finish making everything i wanted to do with this work.
+
+I ended up mostly just adding colors
+
+
+*/
+
+body {
+    background-color: lightblue;
+}
+main{
+    float: left
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+textarea{
+    background-color: yellow;
+    font-size: 3em;
+    color: black;
+}
+
+#errors{
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+#error1a{
+    color: red;
+}
+#error1b{
+    color: orange;
+}
+#error2a{
+    color: pink;
+}
+#error2b{
+    color: tomato;
+}
+#error3{
+    color: purple;
+}
+#error4{
+    color: violet;
+}
+#error5{
+    color: darkred;
+}
+
+table{
+    border-style: groove;
+}
+
+tr{
+    border-style: solid;
+}
+
+td{
+    border-bottom-style: dotted;
+}
+
+form{
+    background-color: lightgreen
+}
+
+input {
+    background-color: gold;
+    font-size: 1em;
+    color: black;
+}
+
+select{
+    color: blue;
+}
+
+
+

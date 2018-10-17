@@ -1,0 +1,1 @@
+[17-Oct-2018 16:50:26 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst336/Assignments/Assignment3/index.php on line 13
