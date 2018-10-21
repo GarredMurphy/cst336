@@ -2,3 +2,14 @@
 [22-Sep-2018 14:51:09 UTC] PHP Stack trace:
 [22-Sep-2018 14:51:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab2/index.php:0
 [22-Sep-2018 14:51:09 UTC] PHP   2. display() /home/ubuntu/workspace/cst336/Labs/Lab2/index.php:12
+[21-Oct-2018 02:05:31 UTC] PHP Warning:  include(wmapiphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Labs/Lab5/index.php on line 16
+[21-Oct-2018 02:05:31 UTC] PHP Stack trace:
+[21-Oct-2018 02:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab5/index.php:0
+[21-Oct-2018 02:05:31 UTC] PHP Warning:  include(): Failed opening 'wmapiphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Labs/Lab5/index.php on line 16
+[21-Oct-2018 02:05:31 UTC] PHP Stack trace:
+[21-Oct-2018 02:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab5/index.php:0
+[21-Oct-2018 02:05:31 UTC] PHP Fatal error:  Call to undefined function getProducts() in /home/ubuntu/workspace/cst336/Labs/Lab5/index.php on line 17
+[21-Oct-2018 02:05:31 UTC] PHP Stack trace:
+[21-Oct-2018 02:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab5/index.php:0
+[21-Oct-2018 06:42:00 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/cst336/Labs/Lab5/index.php on line 39
+[21-Oct-2018 06:43:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/Labs/Lab5/index.php on line 90
