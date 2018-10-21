@@ -14,7 +14,6 @@
         session_start();
         include 'functions.php';
         
-        
         if (!isset($_SESSION['cart'])){
             $_SESSION['cart'] = array();
         }
@@ -44,7 +43,7 @@
             if ($found != true) {
                 $newItem['quantity'] = 1;
                 array_push($_SESSION['cart'], $newItem);
-        }
+            }
         }
     ?>
     

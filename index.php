@@ -21,9 +21,11 @@ echo '<h1> Garred Murphy</h1>';
 <br />
 <a href="Assignments/Assignment2/index.php">Assignemnt 2</a>
 <br />
+<a href="Labs/Lab4/index.php">Lab 4</a>
+<br />
 <a href="Assignments/Assignment3/index.php">Assignemnt 3</a>
 <br />
-<a href="Labs/Lab4/index.php">Lab 4</a>
+<a href="Labs/Lab5/index.php">Lab 5</a>
 <br />
 
 </body>

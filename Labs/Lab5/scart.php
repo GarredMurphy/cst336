@@ -28,7 +28,6 @@
         }
     }
     
-    
     ?>
     <body>
         <div class='container'>
