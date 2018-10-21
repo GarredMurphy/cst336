@@ -16,9 +16,9 @@ function displayResults()
         echo "<td><h4>$$itemPrice</h4></td>";
         echo "<form method ='post'>";
         echo "<input type='hidden' name = itemName value='$itemName'>";
-        echo "<input type='hidden' name = itemPrice value='$itemId'>";
+        echo "<input type='hidden' name = itemPrice value='$itemPrice'>";
         echo "<input type='hidden' name = itemImage value='$itemImage'>";
-        echo "<input type='hidden' name = itemId' value='$itemPrice'>";
+        echo "<input type='hidden' name = itemId value='$itemId'>";
         if ($_POST['itemId'] == $itemId) {
             
         echo "<td><button class='btn btn-success'>Added</button></td>";
