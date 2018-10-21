@@ -43,7 +43,7 @@
             }
             if ($found != true) {
                 $newItem['quantity'] = 1;
-                array_push($_SESSION['cart'], $_POST['newItem']);
+                array_push($_SESSION['cart'], $newItem);
         }
         }
     ?>
