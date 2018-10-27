@@ -31,6 +31,11 @@ function displaySearchResults() {
             $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
         }
         
+        if (!empty($_GET['description'])) {
+            $sql .= " AND productDescription LIKE :productDescription";
+            $namedParameters[":productDescription"] = "%" . $_GET['description'] . "%";
+        }
+        
         if (!empty($_GET['category'])) {
             $sql .= " AND catId = :categoryId";
             $namedParameters[":categoryId"] = $_GET['category'];
@@ -82,7 +87,8 @@ function displaySearchResults() {
                 <img src="img/buddy_verified.png" alt="buddy verified" />
             </figure>
             <form>
-                product: <input type="text" name="product" />
+                Product: <input type="text" name="product" />
+                Description: <input type="text" name="description" />
                 <br />
                 Category:<select name="category">
                     <option value="">Select One</option>
