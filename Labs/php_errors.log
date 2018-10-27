@@ -13,3 +13,36 @@
 [21-Oct-2018 02:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab5/index.php:0
 [21-Oct-2018 06:42:00 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/cst336/Labs/Lab5/index.php on line 39
 [21-Oct-2018 06:43:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/Labs/Lab5/index.php on line 90
+[27-Oct-2018 16:36:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/Labs/Lab6/index.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab6/index.php(59): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/Labs/Lab6/index.php(102): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab6/index.php on line 59
+[27-Oct-2018 16:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 21
+[27-Oct-2018 16:44:15 UTC] PHP Stack trace:
+[27-Oct-2018 16:44:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 16:59:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 16:59:41 UTC] PHP Stack trace:
+[27-Oct-2018 16:59:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 16:59:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 16:59:43 UTC] PHP Stack trace:
+[27-Oct-2018 16:59:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 17:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 17:16:07 UTC] PHP Stack trace:
+[27-Oct-2018 17:16:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 17:16:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 17:16:28 UTC] PHP Stack trace:
+[27-Oct-2018 17:16:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 17:16:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 17:16:32 UTC] PHP Stack trace:
+[27-Oct-2018 17:16:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 17:16:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 17:16:35 UTC] PHP Stack trace:
+[27-Oct-2018 17:16:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 17:16:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 17:16:38 UTC] PHP Stack trace:
+[27-Oct-2018 17:16:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[27-Oct-2018 17:17:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
+[27-Oct-2018 17:17:34 UTC] PHP Stack trace:
+[27-Oct-2018 17:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
