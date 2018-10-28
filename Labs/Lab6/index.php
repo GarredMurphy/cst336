@@ -43,7 +43,7 @@ function displaySearchResults() {
         
         if (!empty($_GET['priceFrom'])) {
             $sql .= " AND price >= :priceFrom";
-            $namedParameters[":priceFrom"] = "%" . $_GET['priceFrom'] . "%";
+            $namedParameters[":priceFrom"] = $_GET['priceFrom'];
         }
         
         if (!empty($_GET['priceTo'])) {
