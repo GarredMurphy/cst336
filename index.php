@@ -27,7 +27,7 @@ echo '<h1> Garred Murphy</h1>';
 <br />
 <a href="Labs/Lab5/index.php">Lab 5</a>
 <br />
-<a href="Labs/Lab6/index.php">Lab 6</a>
+<a href="Assignments/FantasyShopCopy/index.php">Group Project 2</a>
 <br />
 
 </body>
