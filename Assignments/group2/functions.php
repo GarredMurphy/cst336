@@ -1,6 +1,6 @@
 <?php
     include 'dbConnectionFS.php';
-    $dbConn = startConnection("fantasyShop");
+    $dbConn = startConnection("heroku_178dfb6517b4b02");
     
     // used to display categories for dropdown
     function displayCategories() { 

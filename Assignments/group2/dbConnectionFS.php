@@ -1,21 +1,13 @@
 <?php
 
-function startConnection($dbname="fantasyShop") {
-    //Creating database connection
-    $host = "localhost";
-    $username = "root";
-    $password = "";
+function startConnection($dbname = 'heroku_178dfb6517b4b02') {
     
-    //checks whether the URL contains "herokuapp" (using Heroku)
-    if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
-       $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-       $host = $url["host"];
-       $dbname = substr($url["path"], 1);
-       $username = $url["user"];
-       $password = $url["pass"];
-    }
     
-    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $host = 'us-cdbr-iron-east-01.cleardb.net';
+    $username = 'b65b0e9c588f70';
+    $password = 'c4800ffe';
+    $dbConn = new PDO("mysql:host=$host;dbname=$dbname;", $username, $password);
+    
     $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     return $dbConn;
