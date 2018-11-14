@@ -29,6 +29,8 @@ echo '<h1> Garred Murphy</h1>';
 <br />
 <a href="Assignments/group2/index.php">Group 2</a>
 <br />
+<a href="Assignments/Assignment4/index.html">Assignemnt 3</a>
+<br />
 
 </body>
 </html>
