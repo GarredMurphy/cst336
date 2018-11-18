@@ -46,3 +46,171 @@ Stack trace:
 [27-Oct-2018 17:17:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php on line 22
 [27-Oct-2018 17:17:34 UTC] PHP Stack trace:
 [27-Oct-2018 17:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab6/purchaseHistory.php:0
+[18-Nov-2018 02:24:13 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 4
+[18-Nov-2018 02:24:13 UTC] PHP Stack trace:
+[18-Nov-2018 02:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:0
+[18-Nov-2018 02:25:33 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 6
+[18-Nov-2018 02:25:33 UTC] PHP Stack trace:
+[18-Nov-2018 02:25:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:0
+[18-Nov-2018 03:15:59 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 18
+[18-Nov-2018 03:15:59 UTC] PHP Stack trace:
+[18-Nov-2018 03:15:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:16:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 10
+[18-Nov-2018 03:16:53 UTC] PHP Stack trace:
+[18-Nov-2018 03:16:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:16:53 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:18
+[18-Nov-2018 03:21:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 10
+[18-Nov-2018 03:21:43 UTC] PHP Stack trace:
+[18-Nov-2018 03:21:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:21:43 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:18
+[18-Nov-2018 03:24:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 10
+[18-Nov-2018 03:24:25 UTC] PHP Stack trace:
+[18-Nov-2018 03:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:24:25 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:18
+[18-Nov-2018 03:26:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 23
+[18-Nov-2018 03:26:58 UTC] PHP Stack trace:
+[18-Nov-2018 03:26:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:0
+[18-Nov-2018 03:29:02 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 23
+[18-Nov-2018 03:29:02 UTC] PHP Stack trace:
+[18-Nov-2018 03:29:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:0
+[18-Nov-2018 03:31:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 10
+[18-Nov-2018 03:31:17 UTC] PHP Stack trace:
+[18-Nov-2018 03:31:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:31:17 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 03:34:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:34:39 UTC] PHP Stack trace:
+[18-Nov-2018 03:34:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:34:39 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:21
+[18-Nov-2018 03:40:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:40:58 UTC] PHP Stack trace:
+[18-Nov-2018 03:40:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:40:58 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 03:41:20 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/Labs/Lab7/dbConnection.php:19) in /home/ubuntu/workspace/cst336/Labs/Lab7/dbConnection.php on line 19
+[18-Nov-2018 03:41:20 UTC] PHP Stack trace:
+[18-Nov-2018 03:41:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:41:20 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:4
+[18-Nov-2018 03:49:32 UTC] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 24
+[18-Nov-2018 03:49:32 UTC] PHP Stack trace:
+[18-Nov-2018 03:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:0
+[18-Nov-2018 03:49:32 UTC] PHP   2. PDOStatement->execute(*uninitialized*) /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:24
+[18-Nov-2018 03:49:32 UTC] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 24
+[18-Nov-2018 03:49:32 UTC] PHP Stack trace:
+[18-Nov-2018 03:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:0
+[18-Nov-2018 03:49:32 UTC] PHP   2. PDOStatement->execute(*uninitialized*) /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:24
+[18-Nov-2018 03:49:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 24
+[18-Nov-2018 03:52:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:52:43 UTC] PHP Stack trace:
+[18-Nov-2018 03:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:52:43 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 03:53:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:53:39 UTC] PHP Stack trace:
+[18-Nov-2018 03:53:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:53:39 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 03:53:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:53:40 UTC] PHP Stack trace:
+[18-Nov-2018 03:53:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:53:40 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 03:53:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:53:41 UTC] PHP Stack trace:
+[18-Nov-2018 03:53:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:53:41 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 03:53:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:53:43 UTC] PHP Stack trace:
+[18-Nov-2018 03:53:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:53:43 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 03:54:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 03:54:34 UTC] PHP Stack trace:
+[18-Nov-2018 03:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 03:54:34 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 04:09:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 04:09:51 UTC] PHP Stack trace:
+[18-Nov-2018 04:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 04:09:51 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 04:16:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php on line 12
+[18-Nov-2018 04:16:59 UTC] PHP Stack trace:
+[18-Nov-2018 04:16:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:0
+[18-Nov-2018 04:16:59 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/Labs/Lab7/admin.php:19
+[18-Nov-2018 04:27:36 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE), expecting identifier (T_STRING) in /home/ubuntu/workspace/cst336/Labs/Lab7/loginProcess.php on line 5
+[18-Nov-2018 07:08:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:17:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php on line 43
+[18-Nov-2018 07:18:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php on line 43
+[18-Nov-2018 07:21:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php on line 43
+[18-Nov-2018 07:23:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catId' cannot be null' in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php on line 43
+[18-Nov-2018 07:23:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catId' cannot be null' in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/addProduct.php on line 43
+[18-Nov-2018 07:24:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:25:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:25:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:25:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:25:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:26:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:30:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[18-Nov-2018 07:30:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
