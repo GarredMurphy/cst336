@@ -20,9 +20,7 @@
 </form>
 
 <!---
-<form action="admin.php">
-    <input type ="submit" class = 'btn btn-secondary' id = "beginning" value = "Admin"/>
-</form>
+
 --->
 
 <?php
