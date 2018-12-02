@@ -214,3 +214,39 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php(62): getProductInfo()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/Labs/Lab7/updateProduct.php on line 19
+[02-Dec-2018 06:15:55 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 3
+[02-Dec-2018 06:15:55 UTC] PHP Stack trace:
+[02-Dec-2018 06:15:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 06:15:55 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 3
+[02-Dec-2018 06:15:55 UTC] PHP Stack trace:
+[02-Dec-2018 06:15:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 06:15:55 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 06:15:55 UTC] PHP Stack trace:
+[02-Dec-2018 06:15:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 06:17:11 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 3
+[02-Dec-2018 06:17:11 UTC] PHP Stack trace:
+[02-Dec-2018 06:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 06:17:11 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 3
+[02-Dec-2018 06:17:11 UTC] PHP Stack trace:
+[02-Dec-2018 06:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 06:17:11 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 06:17:11 UTC] PHP Stack trace:
+[02-Dec-2018 06:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 07:29:29 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 07:29:29 UTC] PHP Stack trace:
+[02-Dec-2018 07:29:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 07:30:46 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 07:30:46 UTC] PHP Stack trace:
+[02-Dec-2018 07:30:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 07:31:47 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 07:31:47 UTC] PHP Stack trace:
+[02-Dec-2018 07:31:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 07:32:08 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 07:32:08 UTC] PHP Stack trace:
+[02-Dec-2018 07:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 07:32:42 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 07:32:42 UTC] PHP Stack trace:
+[02-Dec-2018 07:32:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0
+[02-Dec-2018 07:34:03 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php on line 4
+[02-Dec-2018 07:34:03 UTC] PHP Stack trace:
+[02-Dec-2018 07:34:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab9/checkUsername.php:0

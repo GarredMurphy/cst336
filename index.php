@@ -35,5 +35,6 @@ echo '<h1> Garred Murphy</h1>';
 <br />
 <a href="Labs/Lab8/index.html">Lab 8</a>
 <br />
+<a href="Labs/Lab9/index.html">Lab 9</a>
 </body>
 </html>
