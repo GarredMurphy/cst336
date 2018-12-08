@@ -1,0 +1,15 @@
+<html><head>
+        <title>Login</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Login</h1>
+        <h2>Credentials required before submiting form.</h2>
+        <p>You can log in using usernames <strong>user_1</strong> or <strong>user_2</strong>. The password is <strong>s3cr3t</strong>.</p>
+        <form action="verifyUser.php" method="post">
+            <input name="username" type="text" placeholder="Username"><br>
+            <input name="password" type="password" placeholder="Password"><br>
+            <input name="submit" type="submit" value="Login">
+        </form>
+    
+</body></html>
