@@ -1,0 +1,15 @@
+#animalTable{
+    font-size: 17px;
+}
+body {
+    text-align: center;
+}
+main {
+    text-align: left;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.form-control{
+    width: 80%;
+}

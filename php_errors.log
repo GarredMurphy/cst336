@@ -1,0 +1,38 @@
+[10-Dec-2018 14:58:12 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/Final_Project/functions.php on line 92
+[10-Dec-2018 14:58:12 UTC] PHP Stack trace:
+[10-Dec-2018 14:58:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[10-Dec-2018 15:01:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'animalName' in 'where clause'' in /home/ubuntu/workspace/cst336/Final_Project/functions.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/functions.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(44): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/functions.php on line 84
+[11-Dec-2018 20:52:39 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[11-Dec-2018 20:52:39 UTC] PHP Stack trace:
+[11-Dec-2018 20:52:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[11-Dec-2018 20:59:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'responseName' in 'field list'' in /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php(86): displayResponses()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php on line 44
+[11-Dec-2018 21:00:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'responseName' in 'field list'' in /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php(88): displayResponses()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php on line 44
+[11-Dec-2018 21:02:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'responseName' in 'field list'' in /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php(88): displayResponses()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/addAnimal.php on line 44
+[12-Dec-2018 05:14:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_178dfb6517b4b02.final_animal' doesn't exist' in /home/ubuntu/workspace/cst336/Final_Project/deleteAnimal.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/deleteAnimal.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/deleteAnimal.php on line 7
+[12-Dec-2018 17:33:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 36
+[12-Dec-2018 17:34:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 36
+[12-Dec-2018 17:34:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 36

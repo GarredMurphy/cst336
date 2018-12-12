@@ -2,15 +2,13 @@
 session_start();
 
 include 'dbConnection.php';
-$conn = getDatabaseConnection('heroku_178dfb6517b4b02');
+$conn = startConnection('heroku_178dfb6517b4b02');
 
 $username = $_POST['username'];
 $password = sha1($_POST['password']);
 
 
-
-                 
-$sql = "SELECT * FROM om_admin
+$sql = "SELECT * FROM final_admin
                  WHERE username = :username 
                  AND  password = :password";                 
 $np = array();
