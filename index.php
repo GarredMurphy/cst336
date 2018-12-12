@@ -38,5 +38,7 @@ echo '<h1> Garred Murphy</h1>';
 <a href="Labs/Lab9/index.html">Lab 9</a>
 <br />
 <a href="Labs/Lab10/index.php">Lab 10</a>
+<br />
+<a href="Final_Project/index.php">Final Project</a>
 </body>
 </html>
